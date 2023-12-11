@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMTH Form</title>
+</head>
+<body>
+    <div class="banner">
+        <img src="bmth-banner.jpeg">
+    </div>
+    <form method="post" action="https://script.google.com/macros/s/AKfycbxFn-9Dw7u02mQfZh53mQA14OzodYTQh8ESW8TYfyesdQjvpMNi5SEyrFHpdiCeU1Cy/exec" name="regist-form">
+        <div class="container">
+            <h1>BMTH Fanbase Registration</h1>
+            <i>"Let's headbang together!"</i>
+            <hr>
+            
+            <label for="name"><b>Nama</b></label>
+            <input type="text" placeholder="Nama Panggilan" name="name" id="name" required>
+
+            <label for="email"><b>Alamat Email</b></label>
+            <input type="email" placeholder="Email" name="email" id="email" required>
+        
+            <label for="phone"><b>Nomor Handphone</b></label>
+            <input type="tel" placeholder="Nomor HP" name="phone" id="phone" required>
+        
+            <label for="reason"><b>Alasan Terkuatmu Ingin Join Bersama Kami!</b></label>
+            <textarea placeholder="Utarakan bro!" name="reason" rows="5" id="reason" required></textarea>
+            
+            <button type="submit" class="registerbtn">Submit</button>
+        </div>    
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

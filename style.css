@@ -1,0 +1,78 @@
+body {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+i {
+    color: gray;
+}
+
+.banner img{
+    width: 670px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container {
+    width: 670px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input:focus, textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 15px;
+}
+
+.registerbtn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  margin: 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+p {
+    color: gray;
+    font-size: small;
+    margin-top: 0px;
+}
